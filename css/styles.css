@@ -11268,3 +11268,24 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+.createCircularImage {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  
+  /* Center image */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+  margin-right: 100px;
+}
